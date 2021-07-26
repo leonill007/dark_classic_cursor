@@ -1,4 +1,4 @@
-# dark_classic_cursor
+# Dark classic cursor
  A dark version of the classic windows cursors.
  
  To install, simply right-click the install.inf file and select install.
