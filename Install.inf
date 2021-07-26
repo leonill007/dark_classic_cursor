@@ -1,0 +1,56 @@
+<-- made by Venti //https://deviantart.com/xventi  // https://xventi.github.io -->
+[Version]
+signature="$Chicago$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+arrow_r.cur
+help_r.cur
+counter.ani
+busy_r.cur
+beam_r.cur
+no_r.cur
+size4_r.cur
+size3_r.cur
+size2_r.cur
+size1_r.cur
+move_r.cur
+link.cur
+cross_r.cur
+pen_r.cur
+up_r.cur
+pin_r.cur
+person_r.cur
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR       = "cursors/dark_classic_cursor"
+SCHEME_NAME   = "Dark Classic Cursors"
+pointer       = "arrow_r.cur"
+help          = "help_r.cur"
+work          = "counter.ani"
+busy          = "busy_r.cur"
+text          = "beam_r.cur"
+unavailiable  = "no_r.cur"
+vert          = "size4_r.cur"
+horz          = "size3_r.cur"
+dgn1          = "size2_r.cur"
+dgn2          = "size1_r.cur"
+move          = "move_r.cur"
+link          = "link.cur"
+cross         = "cross_r.cur"
+hand          = "pen_r.cur"
+alternate     = "up_r.cur"
+pin           = "pin_r.cur"
+person        = "person_r.cur"
